@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="Calculator.css" />
+		
+	</head>
+	<body>
+		<div class="table">
+			<div class="tr1st">
+				<div class="td1st"><input type="text" name="" id="txtnum" value=""/></div>
+				<div class="td2nd"><input type="button" name="" id="" value="清除" onclick="txtnum.value='';CalculationResults=0" /></div>
+				<div class="td3rd"><input type="button" name="" id="" value="退格" onclick="backspace()" /></div>
+			</div>
+			<div class="tr2nd">
+				<div class="td1st">
+					<div class="MathematicalFunction">
+						<div class="MathematicalFunctionSinCosTan">
+							<div class="sin"><input type="button" value="sin" onclick="math('sin')" /></div>
+							<div class="cos"><input type="button" value="cos" onclick="math('cos')" /></div>
+							<div class="tan"><input type="button" value="tan" onclick="math('tan')" /></div>
+						</div>
+						<div class="MathematicalFunctionAsinAconAtan">
+							<div class="asin"><input type="button" value="asin" onclick="math('asin')" /></div>
+							<div class="acos"><input type="button" value="acos" onclick="math('acos')" /></div>
+							<div class="atan"><input type="button" value="atan" onclick="math('atan')" /></div>
+						</div>
+						<div class="MathematicalFunctionPi1xExp">
+							<div class="PI"><input type="button" value="PI" onclick="math('PI')" /></div>
+							<div class="1x"><input type="button" value="1/x" onclick="math('1/x')" /></div>
+							<div class="exp"><input type="button" value="exp" onclick="math('exp')" /></div>
+						</div>
+						<div class="MathematicalFunctionLnxLgxN!">
+							<div class="lnx"><input type="button" value="lnx" onclick="math('lnx')" /></div>
+							<div class="lgx"><input type="button" value="lgx" onclick="math('lgx')" /></div>
+							<div class="n"><input type="button" value="n!" onclick="math('n!')" /></div>
+						</div>
+					</div>
+				</div>
+				<div class="td2nd">
+					<div class="Numeral">
+						<div class="Numeral7th8th9th">
+							<div class="Numeral7th"><input type="button" value="7" onclick="num(7)"/></div>
+							<div class="Numeral8th"><input type="button" value="8" onclick="num(8)"/></div>
+							<div class="Numeral9th"><input type="button" value="9" onclick="num(9)"/></div>
+						</div>
+						<div class="Numeral4th5th6th">
+							<div class="Numeral4th"><input type="button" value="4" onclick="num(4)"/></div>
+							<div class="Numeral5th"><input type="button" value="5" onclick="num(5)"/></div>
+							<div class="Numeral6th"><input type="button" value="6" onclick="num(6)"/></div>
+						</div>
+						
+						<div class="Numeral1st2nd3rd">
+							<div class="Numeral1st"><input type="button" value="1" onclick="num(1)"/></div>
+							<div class="Numeral2nd"><input type="button" value="2" onclick="num(2)"/></div>
+							<div class="Numeral3rd"><input type="button" value="3" onclick="num(3)"/></div>
+						</div>
+						<div class="NumeralZeroDotEqual">
+							<div class="NumeralZero"><input type="button" value="0" onclick="num(0)"/></div>
+							<div class="NumeralDot"><input type="button" value="."/ onclick="decimal()"></div>
+							<div class="NumeralEqual"><input type="button" value="="onclick="Calculation('=')"/></div>
+						</div>
+					</div>
+				</div>
+				<div class="td3rd">
+					<div class="Add">
+						<input type="button" name="" id="" value="+" onclick="Calculation('+')"/>
+					</div>
+					<div class="Subtract">
+						<input type="button" name="" id="" value="-" onclick="Calculation('-')"/>
+					</div>
+					<div class="Multiply">
+						<input type="button" name="" id="" value="*" onclick="Calculation('*')"/>
+					</div>
+					<div class="except">
+						<input type="button" name="" id="" value="/" onclick="Calculation('/')"/>
+					</div>
+					<div class="Remainder">
+						<input type="button" name="" id="" value="取余" onclick="Calculation('%')"/>
+					</div>
+					<div class="Rounding">
+						<input type="button" name="" id="" value="取整" />
+					</div>
+				</div>
+				<div class="NumberSystem">
+					<div class="BinaryCode">
+						<input type="button" name="" id="" value="二进制码" />
+					</div>
+					<div class="OcralCode">
+						<input type="button" name="" id="" value="八进制码" />
+						
+					</div>
+					<div class="DecimalCode">
+						<input type="button" name="" id="" value="十进制码" />
+						
+					</div>
+					<div class="HexadecimalCode">
+						<input type="button" name="" id="" value="十六进制码" />
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" language="JavaScript" src="Calculator.js"></script>	
+	</body>
+</html>

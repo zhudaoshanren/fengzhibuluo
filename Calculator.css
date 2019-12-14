@@ -1,0 +1,192 @@
+@charset "utf-8"; //设置2进制转换码制
+
+html,body{
+	
+}
+.table{
+	border:3px outset rgba(0,255,0,1) ;
+	
+}
+.tr1st,.tr2nd{
+	border:3px outset rgba(0,255,0,1) ;
+}
+.td1st,.td2nd,.td3rd,{
+	
+}
+//tr1st开启定位盒子,让清除,退格在屏显同行显示
+.tr1st{
+	display: flex;
+}
+.td1st{
+	display: inline-flex;
+	
+}
+.td2nd{
+	display: inline-flex;
+}
+ .td3rd{
+	display: inline-flex;
+}
+.NumberSystem{
+	display: inline-flex;
+	flex-direction: column;
+}
+//数字区布局
+.Numeral{
+	
+}
+.Numeral1st2nd3rd{
+	display:flex;
+}
+.Numeral1st{
+	display: inline-flex;
+}
+.Numeral2nd{
+	display: inline-flex;	
+}
+.Numeral3rd{
+	display: inline-flex;	
+}
+
+.Numeral4th5th6th{
+	display: flex;
+}
+.Numeral4th{
+	display: inline-flex;
+}
+.Numeral5th{
+	display: inline-flex;
+}
+.Numeral6th{
+	display: inline-flex;
+}
+
+.Numeral7th8th9th{
+	display: flex;
+}
+.Numeral7th{
+	display: inline-flex;
+}
+.Numeral8th{
+	display: inline-flex;
+}
+.Numeral9th{
+	display: inline-flex;
+}
+
+.NumeralZeroDotEqual{
+	display: flex;
+}
+.NumeralZero{
+	display: inline-flex;	
+}
+.NumeralDot{
+	display: inline-flex;	
+}
+.NumeralEqual{
+	display: inline-flex;	
+}
+
+//MathematicalFunction区布局
+.MathematicalFunction{
+	
+}
+.MathematicalFunctionSinCosTan{
+	
+}
+.sin{
+	display: inline-flex;
+}
+.cos{
+	display: inline-flex;
+}
+.tan{
+	display: inline-flex;
+}
+
+.MathematicalFunctionAsinAcosAtan{
+	
+}
+.asin{
+	display: inline-flex;
+	
+}
+.acos{
+	display: inline-flex;
+	
+}
+.atan{
+	display: inline-flex;
+	
+}
+
+.MathematicalFunctionPi1xExp{
+	display: flex;
+}
+.PI{
+	display: inline-flex;
+	
+}
+.1x{
+	display: inline-flex;
+	
+}
+.exp{
+	display: inline-flex;
+	
+}
+
+.MathematicalFunctionLnxLgxN!{
+	
+}
+.lnx{
+	display: inline-flex;
+	
+}
+.lgx{
+	display: inline-flex;
+	
+}
+.n{
+	display: inline-flex;
+	
+}
+
+
+//NumberSystem布局
+.NumberSystem{
+	
+}
+.BinaryCode{
+	display: flex;
+}
+.OcralCode{
+	display: flex;
+}
+.DecimalCode{
+	display: flex;
+	
+}
+.HexadecimalCode{
+	display: flex;
+}
+
+//td3rd布局
+.Add{
+
+}
+.Subtract{
+
+}
+.Multiply{
+
+}
+.except{
+
+}
+.Remainder{
+
+}
+.Rounding{
+	
+}
