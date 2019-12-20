@@ -4,7 +4,11 @@ html,body{
 	
 }
 .table{
-	border:3px outset rgba(0,255,0,1) ;
+	border-radius:10px;
+	border:3px outset rgba(0,255,0,1);
+	max-width: 320px;
+	max-height: 568px;
+	
 	
 }
 .tr1st,.tr2nd{

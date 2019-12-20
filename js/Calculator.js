@@ -123,3 +123,9 @@ function jc(a){
 		return jc(a-1)*a;
 	}
 }
+
+function NumberSystemTransformation(op){
+	var onum=$("txtnum").value;
+	CalculationResults=onum.toString(2);
+	$('txtnum').value=CalculationResults;
+}
