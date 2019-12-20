@@ -1,0 +1,47 @@
+@charset "utf-8";			
+body{
+	height: 2800px;
+	background-color: rgba(0,255,0,0.5);
+}
+a{
+	display: none;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+#canvas{
+	
+}
+.taiji{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(255,255,255,1);
+	
+	border-left:20px solid rgba(0,0,0,1);
+	
+	width: 20px;
+	height: 40px;
+	
+	border-radius:50%;
+	
+	
+	
+}
+
+.taiji::before,.taiji::after{
+	content: "";
+	display: block;
+	width:3px;
+	height:3px;
+	border-radius:50%;
+	margin-left:-10px;
+}
+.taiji::before{
+	background: rgba(255,255,255,1);
+	border:8.5px solid rgba(0,0,0,1);
+}
+.taiji::after{
+	background: rgba(0,0,0,1);
+	border:8.5px solid rgba(255,255,255,1);
+}
