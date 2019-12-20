@@ -2,18 +2,54 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>博客</title>
-		<style type="text/css">
+		<title>login</title>
+		<style>
 			
+			body{
+				
+				background-image:url(img/绽影像之《一瓣山河》0.jpg);
+				background-size: 100%;
+				background-repeat:no-repeat;
+				
+				
+			}
+			
+			.wrap{
+				
+				
+			}
+			
+			.login{
+				width: 800px;
+			}
+			
+			.user{
+				border-color:rgba(207,207,207,0.81);
+			}
+			.password{
+				border-color:rgba(207,207,207,0.81);
+			}
+			.logon{
+				border-color:rgba(207,207,207,0.81);	
+			}
 		</style>
-		<link rel="stylesheet" type="text/css" href=""/>
 	</head>
 	<body>
-		
-		
-		
-		
-		
+		<div class="wrap">
+			<div class="login">
+				<form action="login.html" method="post">
+					
+					<input class="user" type="text" maxlength="32" placeholder="用户名/邮箱/手机号">
+					<p></p>
+					<input class="password" type="password" maxlength="32"  name="pass" value="" placeholder="密码" >
+					<p></p>
+					<input class="logon" type="submit" value="登陆"/>
+				</form>
+			</div>
+			
+			
+			
+		</div>
 		
 	</body>
 	<script type="text/javascript">
