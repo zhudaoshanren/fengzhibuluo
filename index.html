@@ -1,70 +1,24 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>风之部落</title>
-		<style>
-			
-			body{
-				
-				background-image:url(img/绽影像之《一瓣山河》0.jpg);
-				background-size: 100%;
-				background-repeat:no-repeat;
-				
-				
-			}
-			
-			.wrap{
-				
-				
-			}
-			
-			.login{
-				width: 800px;
-			}
-			
-			.user{
-				border-color:rgba(207,207,207,0.81);
-			}
-			.password{
-				border-color:rgba(207,207,207,0.81);
-			}
-			.logon{
-				border-color:rgba(207,207,207,0.81);	
-			}
-		</style>
-		<link rel="stylesheet" type="text/css" href="css/scroollTop.css"/>
-	</head>
-	<body>
-		<div class="wrap">
-			<div class="login">
-				<form action="login.html" method="post">
-					
-					<input class="user" type="text" maxlength="32" placeholder="用户名/邮箱/手机号">
-					<p></p>
-					<input class="password" type="password" maxlength="32"  name="pass" value="" placeholder="密码" >
-					<p></p>
-					<input class="logon" type="submit" value="登陆"/>
-				</form>
-			</div>
-			
-			
-			
-		</div>
-		<a href="javascript:;">
-			<!--<div class="taiji">
-				
-			</div>-->
-		
-			<canvas id="canvas" width="60" height="60">
-				您的浏览器暂不支持HTML5的canvas元素
-			</canvas>
-		</a>
-	</body>
-	<script type="text/javascript">
-		
-	</script>
-	<script type="text/javascript" src="js/scrollTop.js">
-		
-	</script>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>THREE Image Transition</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="three-container"></div>
+
+<div id="instructions">
+	click and drag to control the animation
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js'></script>
+<script  src="./script.js"></script>
+
+</body>
 </html>
